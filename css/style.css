@@ -1,0 +1,26 @@
+#container{
+    margin: 0 10%;
+}
+
+.item{
+    margin: 15% 10%;
+    padding: 5px 5px;
+    border-radius: 100%;
+    border: 5px solid rgb(109, 91, 151);;
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+}
+.img-sp{
+    background-image: url(../img/iconesp.png);
+}
+.img-rj{
+    background-image: url(../img/iconerj.png);
+}
+.img-cwb{
+    background-image: url(../img/iconecwb.png);
+}
+
+.slick-dotted .slick-current .item {
+  transform: scale(1.3);
+}
